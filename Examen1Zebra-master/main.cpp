@@ -13,18 +13,13 @@ using namespace std;
 //Devuelve el atributo valor del objeto numero en la posicion del arreglo dado
 int obtenerValor(Numero** arreglo, int pos)
 {
-    //int* n= arreglo[pos];
-    return NULL;
+    return arreglo[pos]->valor;
 }
 
 //Devuelve true si y solo si todas las letras de las cadenas de la lista son mayusculas
 bool sonMayusculas(list<string> palabras)
 {
-    vector<string> alm;
-    char cadena;
-    for(int i=0; i<palabras.size();i++){
-        //alm=palabras[i];
-    }
+
     return false;
 }
 
@@ -32,16 +27,7 @@ bool sonMayusculas(list<string> palabras)
 vector<int> eliminarRepetidos(vector<int> vector_a)
 {
     vector<int> respuesta;
-    vector<int> comp=vector_a;
-    vector<int> al=vector_a;
-    for(int i=0;i<vector_a.size();i++){
-            for(int j=0;j<respuesta.size();j++){
-                if(respuesta[j]!=vector_a[i]){
 
-                }
-            }
-        }
-    }
     return respuesta;
 }
 
